@@ -546,6 +546,18 @@ p {
   font-size: clamp(3rem, 9vw, 5.4rem);
 }
 
+.age-number {
+  display: inline-block;
+  margin-inline: 0.05em;
+  padding: 0 0.14em;
+  border: 1px solid oklch(86% 0.045 70 / 36%);
+  border-radius: 0.26em;
+  color: var(--sand);
+  background: linear-gradient(145deg, oklch(67% 0.105 55 / 20%), oklch(86% 0.045 70 / 10%));
+  box-shadow: 0 0 0 1px oklch(86% 0.045 70 / 14%) inset;
+  line-height: 0.9;
+}
+
 .age-actions {
   display: flex;
   flex-wrap: wrap;
